@@ -1,0 +1,43 @@
+set smtp_url = "smtp://jaewon.james.choi@gmail.com@smtp.gmail.com:587/"
+set smtp_pass = "Chkwodnjs200!"
+set smtp_authenticators = 'gssapi:login'
+
+set from = "jaewon.james.choi@gmail.com"
+set realname = "Jaewon Choi"
+
+set imap_user = "jaewon.james.choi@gmail.com"
+set imap_pass = "Chkwodnjs200!"
+
+set ssl_starttls = yes
+set ssl_force_tls = yes
+unset imap_passive
+set imap_check_subscribed
+
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+
+set move = no
+
+set mail_check = 60
+
+set timeout = 10
+
+set header_cache=~/.hcache
+
+set net_inc=5
+
+set pager_stop=yes
+
+set quit=ask-yes
+
+set date_format="!%a, %b %d, %Y at %I:%M:%S%p %Z"
+
+set index_format = "%4C %Z %{%b %d %H:%M}  %-15.15L (%?l?%4l&%4c?) %s"
+
+set sidebar_visible = yes
+set mail_check_stats
